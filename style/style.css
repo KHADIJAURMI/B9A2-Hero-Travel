@@ -4,5 +4,32 @@
     padding: 0;
 }
 
+.priamry-color {
+    color: rgb(255, 84, 0);
 
-.header-title {}
+}
+
+.nav-section {
+    padding: 10px 15px;
+}
+
+.nav-div {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-size: 32px;
+}
+
+.nav-div li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 15px;
+    font-size: 18px;
+
+}
