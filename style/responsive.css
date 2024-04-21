@@ -1,0 +1,35 @@
+/* reponsiveness */
+@media screen and (max-width: 600px) {
+    .header-section {
+        flex-direction: column;
+        margin-left: 50px;
+
+    }
+
+    .nav-title img {
+        width: 40px;
+    }
+
+    .nav-title {
+        width: 100%;
+        font-size: 18px;
+        font-weight: 800;
+    }
+
+    .menu-icon {
+        display: block;
+        margin-left: 80px;
+    }
+
+    .list-section {
+        display: none;
+        /* Hide the list items on mobile */
+    }
+
+    .material-icons {
+        display: block;
+        font-size: 20px;
+    }
+}
+
+@media(max-width: 895px) {}
