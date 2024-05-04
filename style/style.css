@@ -60,3 +60,69 @@
     color: rgb(66, 66, 71);
 
 }
+
+/* banner section */
+.banner-section {
+    max-width: 1350px;
+    margin: 20px auto;
+    padding: 20px;
+    /* border: 3px solid red; */
+
+}
+
+.banner-section img {
+    width: 1150px;
+    height: 500px;
+    margin-left: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    filter: brightness(0.5);
+    position: relative;
+}
+
+.banner-details-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.banner-intro h1 {
+    font-size: 64px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.banner-intro p {
+    font-size: 18px;
+    margin-bottom: 54px;
+}
+
+.banner-input {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 16px;
+    border-radius: 5px;
+}
+
+.banner-input input, button {
+    width: 144px;
+    height: 50px;
+    border-radius: 1em;
+    box-sizing: border-box;
+    text-align: center;
+    border: none;
+    margin-right: 10px;
+    font-size: 16px;
+}
+
+.banner-input button {
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
