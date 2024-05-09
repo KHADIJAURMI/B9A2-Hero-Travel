@@ -9,6 +9,12 @@
 
 }
 
+.primary-button {
+    background-color: orangered;
+    color: white;
+    font-weight: bold;
+}
+
 
 .header-section {
     max-width: 1250px;
@@ -121,13 +127,8 @@
     font-size: 16px;
 }
 
-.banner-input button {
-    background-color: orangered;
-    color: white;
-    font-weight: bold;
-}
 
-/* popuar-tour */
+/* popular-tour */
 .popular-tour-section {
     max-width: 1350px;
     margin: 80px auto;
@@ -156,3 +157,5 @@
     width: 500px;
     height: 500px;
 }
+
+#read-more-btn {}
