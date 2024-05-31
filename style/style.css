@@ -310,7 +310,7 @@
     max-width: 1450px;
     padding: 0 40px;
     border-radius: 8px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.45)), url("/Images/Rectangle\ 13.png");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.45)), url("../Images/Rectangle\ 13.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 600px;
